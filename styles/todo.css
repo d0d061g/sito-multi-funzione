@@ -1,0 +1,54 @@
+body {
+  background-color: rgb(30, 30, 30);
+  font-family: Arial;
+}
+
+.overall-margin {
+  margin: 30px;
+}
+
+.error-message {
+  color: red;
+}
+
+.todo-grid,
+.todo-input-grid {
+  color: white;
+  display: grid;
+  grid-template-columns: 200px 180px 100px;
+  column-gap: 10px;
+  row-gap: 10px;
+  align-items: center;
+  word-wrap: break-word;
+}
+
+.todo-input-grid {
+  margin-bottom: 10px;
+  align-items: stretch;
+}
+
+.name-input,
+.due-date-input {
+  background-color: rgb(225, 225, 225);
+  color: black;
+  font-size: 15px;
+  padding: 6px;
+  border: none;
+}
+
+.add-todo-button {
+  background-color: green;
+  color: white;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.delete-todo-button{
+  background-color: darkred;
+  color: white;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  padding: 10px;
+}
